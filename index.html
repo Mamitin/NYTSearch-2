@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>NYTSearch</title>
 </head>
+
 <body>
-    
+    <div class="header">
+        <i class="fa fa-newspaper-o"></i> New York Times Search
+    </div>
+    <div class="parameters">
+            <p class="searchTable">Search Parameters</p> 
+        <form>
+            <p>Search Term:</p> <input type="text" name="searchTerm"><br>
+            <p>Number of records to retrive:</p>
+            <select name="retrive">
+                    <option value= "one">1</option>
+                    <option value= "two">2</option>
+                    <option value= "three">3</option>
+                    <option value= "four">4</option>
+                    <option value= "five">5</option>
+            </select><br>
+            <p>Start Year (optional):</p> <input type="text" name="startYear"><br>
+            <p>End Year (optional):</p> <input type="text" name="endYear"><br>
+            <div>
+                    <i class="fas fa-search"></i> <button type="search" class="search"> Search </button>
+                    <i class="fas fa-trash"></i> <button type="recycle" class="recycle"> Clear Results </button>
+            </div>
+
+        </form>
+    </div>
+    <div class="parameters">
+           <!-- <i class="fas fa-calendar"></i>  -->
+           <p class="searchTable">Top Articles</p> 
+        <div>
+
+        <div>
+    </div>
+    <div class="footer">
+        Made with lots and lots of <i class="fas fa-heart" style="margin: 0px;"></i>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript"></script>
 </body>
+
 </html>
